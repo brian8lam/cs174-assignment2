@@ -15,14 +15,18 @@
 	<!-- Form -->
 	<div class="form">
 		<h2>Login</h2>
-		<form>
-			<input type="text" placeholder="Username"/>
-			<input type="password" placeholder="Password"/>
+		<form action="index.php" method="post">
+			<input name="user" type="text" placeholder="Username"/>
+			<input name="pass" type="password" placeholder="Password"/>
 			<input class="btn" type="submit" value="Login" />
 	    </form>
 	</div>
 	<div class="create">
 		<a href="registration.html"><div class="register">Create Account</div></a>
 	</div>
+
+	<footer role="contentinfo" class="footer">
+        <p><small>&copy; 2015 Study Buddy. All Rights Reserved.</small></p>
+    </footer>
 </body>
 </html>
